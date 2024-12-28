@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://i.icomoon.io/public/temp/13000a274c/UntitledProject/style.css">
+  <link rel="stylesheet" href="Stylesheets/footer.css" />
+  <link rel="stylesheet" href="Stylesheets/header.css" />
+  <link rel="stylesheet" href="Stylesheets/menu.css" />
+  <link rel="stylesheet" href="Sign Up Page/signUpPage.css">
+  <link rel="stylesheet" href="Login Page/loginPage.css">
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <h2>Dine <i class="fa-solid fa-utensils"></i> Divine</h2>
+      <ul>
+        <li>
+          <a id="homeLink" href="home.html">Home</a>
+        </li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="#">Menu</a></li>
+        <!-- <li><a href="#">Blog</a></li> -->
+        <li>
+          <a id="contactLink" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      <div class="buttons">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+        <button onclick="formToggle()" type="submit">Sign in</button>
+      </div>
+    </nav>
+
+  </header>
+  <aside>
+
+    <!-- Login Page -->
+    <div id="login">
+      <div id="loginHeader">
+        <h1>Welcome Back !</h1>
+        <h3>Enter your credenital for login</h3>
+      </div>
+
+      <form action="post">
+
+        <!-- <label for="email">Email </label> -->
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <br>
+
+        <!-- <label for="password">Password</label> -->
+        <input type="password" id="password" placeholder="Password" required>
+        <br>
+        <button id="submit" type="submit">Login </button>
+
+      </form>
+      <br>
+
+      <a href="" id="forgetPassword">Forget Password ?</a>
+    </div>
+
+
+
+    <!-- Sign Up Page -->
+    <div id="signUp">
+
+      <div id="signUpHeader">
+        <h1>Sign Up</h1>
+        <h3>Create your account</h3>
+      </div>
+
+      <form action="post" id="myForm">
+
+        <!-- <label for="fName">First Name</label> -->
+        <input type="text" id="fName" placeholder="First Name" required>
+        <br>
+
+        <!-- <label for="lName">Last Name</label> -->
+        <input type="text" id="lName" placeholder="Last Name" required>
+        <br>
+
+        <!-- <label for="email">Email </label> -->
+        <input type="email" id="email" placeholder=" Email" required>
+        <br>
+
+        <!-- <label for="password">Password</label> -->
+        <input type="password" id="password" placeholder="Password" required>
+        <br>
+
+
+        <button id="submit" onclick="" type="submit">Sign Up</button>
+
+      </form>
+
+      <p>OR</p>
+
+      <button onclick="" id="easySubmit" type="button">
+        <img id="googleIcon" src="./Sign Up Page/google_icon.png" alt=""> Login with Google </button>
+
+    </div>
+
+
+  </aside>
+  <main>
+    <section>
+      <div id="flexContainer">
+        <div id="catogeries">
+          <!-- linear-gradient(90deg, #A4150D 9%, #0C163F 73%); -->
+
+          <div class="menuButton-active">
+            <p>Main Course</p>
+          </div>
+
+          <div class="menuButton">
+            <p>Apetizers</p>
+          </div>
+
+          <div class="menuButton">
+            <p>Beverages</p>
+          </div>
+
+          <div class="menuButton">
+            <p>Desserts</p>
+          </div>
+        </div>
+
+        <div id="menu">
+          <div class="menuItemsDetails">
+            <div class="itemDetailContainer outer">
+              <img class="itemImage inner" src="https://via.placeholder.com/217x231" alt="" />
+              <div class="itemDetails inner2">
+                <h2>Grilled Salmon with Lemon Dill Sauce</h2>
+                <div>Freshly grilled salmon fillet topped with a creamy lemon dill sauce, served with asparagus and
+                  roasted
+                  potatoes.</div>
+                <p>$ 10.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="menuItemsDetails">
+            <div class="itemDetailContainer outer">
+              <img class="itemImage inner" src="https://via.placeholder.com/217x231" alt="" />
+              <div class="itemDetails inner2">
+                <h2>Grilled Salmon with Lemon Dill Sauce</h2>
+                <div>Freshly grilled salmon fillet topped with a creamy lemon dill sauce, served with asparagus and
+                  roasted
+                  potatoes.</div>
+                <p>$ 10.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="menuItemsDetails">
+            <div class="itemDetailContainer outer">
+              <img class="itemImage inner" src="https://via.placeholder.com/217x231" alt="" />
+              <div class="itemDetails inner2">
+                <h2>Grilled Salmon with Lemon Dill Sauce</h2>
+                <div>Freshly grilled salmon fillet topped with a creamy lemon dill sauce, served with asparagus and
+                  roasted
+                  potatoes.</div>
+                <p>$ 10.00</p>
+              </div>
+            </div>
+          </div>
+          <div class="menuItemsDetails">
+            <div class="itemDetailContainer outer">
+              <img class="itemImage inner" src="https://via.placeholder.com/217x231" alt="" />
+              <div class="itemDetails inner2">
+                <h2>Grilled Salmon with Lemon Dill Sauce</h2>
+                <div>Freshly grilled salmon fillet topped with a creamy lemon dill sauce, served with asparagus and
+                  roasted
+                  potatoes.</div>
+                <p>$ 10.00</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="menuDotsList">
+            <div class="buttonBackMenu buttonNextMenu-buttonBackMenu"><i class="fa-solid fa-chevron-left"></i></div>
+            <div class="dot actve"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="buttonNextMenu buttonNextMenu-buttonBackMenu"><i class="fa-solid fa-chevron-right"></i></div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+
+  </main>
+  <!-- <div class="main">
+    <nav>
+      <h2>Dine <i class="fa-solid fa-utensils"></i> Divine</h2>
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Menu</li>
+        <li>Blog</li>
+        <li>Contact</li>
+      </ul>
+      <div class="buttons">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-solid fa-cart-shopping"></i>
+        <button onclick="formToggle()" type="submit">Sign in</button>
+      </div>
+    </nav>
+    <form id="form1" action="">
+      <span onclick="formToggle()">X</span>
+      <label for="email">Email: </label>
+      <input id="email" type="email" />
+      <label for="password">Password: </label>
+      <input id="password" type="password" />
+      <input type="submit" />
+    </form>
+    <div class="paragraphs">
+      <h1>Savor the Exquisite Flavors of Dine Divine</h1>
+      <p>Experience Culinary Excellence in Every Bite</p>
+      <button>Reserve your tabble</button>
+    </div>
+  </div> -->
+  <footer>
+    <div id="flexParent">
+      <!-- left -->
+      <div id="leftWords">
+        <h1>food field</h1>
+
+        <p>Our wondrefull resturant <br /></p>
+      </div>
+
+      <!-- center -->
+      <div id="centerWords">
+        Weekly offer <br />
+        pre - order options <br />
+        Book a table
+      </div>
+      <!-- third -->
+      <div id="thirdWords">
+        Yosry ragheb street <br />
+        Assuit city <br />
+        &copy; 2024 all right reserved
+      </div>
+      <!-- last -->
+      <div id="contactWords">
+        Get in touch <br />
+        <span>
+          <img class="phone" src="./footer imgs/Phone.png" alt="" />
+          <a href="tel"> 010-1010-1010</a></span><br />
+
+        <a href="#">
+          <img src="./footer imgs/Facebook Circled.png" alt="" /></a>
+        <a href="#">
+          <img src="./footer imgs/Twitter Circled.png" alt="" /></a>
+        <a href="#">
+          <img src="./footer imgs/Instagram Circle.png" alt="" /></a>
+        <a href="#">
+          <img src="./footer imgs/LinkedIn Circled.png" alt="" /></a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const form = document.querySelector("#form1");
+    function formToggle() {
+      form.classList.toggle("form");
+    }
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+    });
+  </script>
+</body>
+
+</html>

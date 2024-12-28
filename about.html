@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Aguafina+Script&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/13000a274c/UntitledProject/style.css">
+    <link rel="stylesheet" href="Stylesheets/footer.css" />
+    <link rel="stylesheet" href="Stylesheets/header.css" />
+    <link rel="stylesheet" href="Stylesheets/about.css" />
+    <link rel="stylesheet" href="Sign Up Page/signUpPage.css">
+    <link rel="stylesheet" href="Login Page/loginPage.css">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h2>Dine <i class="fa-solid fa-utensils"></i> Divine</h2>
+            <ul>
+                <li>
+                    <a id="homeLink" href="home.html">Home</a>
+                </li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <!-- <li><a href="#">Blog</a></li> -->
+                <li>
+                    <a id="contactLink" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <div class="buttons">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <button onclick="formToggle()" type="submit">Sign in</button>
+            </div>
+        </nav>
+
+    </header>
+    <aside>
+
+        <!-- Login Page -->
+        <div id="login">
+            <div id="loginHeader">
+                <h1>Welcome Back !</h1>
+                <h3>Enter your credenital for login</h3>
+            </div>
+
+            <form action="post">
+
+                <!-- <label for="email">Email </label> -->
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <br>
+
+                <!-- <label for="password">Password</label> -->
+                <input type="password" id="password" placeholder="Password" required>
+                <br>
+                <button id="submit" type="submit">Login </button>
+
+            </form>
+            <br>
+
+            <a href="" id="forgetPassword">Forget Password ?</a>
+        </div>
+
+
+
+        <!-- Sign Up Page -->
+        <div id="signUp">
+
+            <div id="signUpHeader">
+                <h1>Sign Up</h1>
+                <h3>Create your account</h3>
+            </div>
+
+            <form action="post" id="myForm">
+
+                <!-- <label for="fName">First Name</label> -->
+                <input type="text" id="fName" placeholder="First Name" required>
+                <br>
+
+                <!-- <label for="lName">Last Name</label> -->
+                <input type="text" id="lName" placeholder="Last Name" required>
+                <br>
+
+                <!-- <label for="email">Email </label> -->
+                <input type="email" id="email" placeholder=" Email" required>
+                <br>
+
+                <!-- <label for="password">Password</label> -->
+                <input type="password" id="password" placeholder="Password" required>
+                <br>
+
+
+                <button id="submit" onclick="" type="submit">Sign Up</button>
+
+            </form>
+
+            <p>OR</p>
+
+            <button onclick="" id="easySubmit" type="button">
+                <img id="googleIcon" src="./Sign Up Page/google_icon.png" alt=""> Login with Google </button>
+
+        </div>
+
+
+    </aside>
+    <main>
+        <section id="aboutSection">
+            <h2>About Our Restaurant</h2>
+            <p>
+                Welcome to our restaurant, a culinary haven where flavors meet passion and dining becomes an
+                unforgettable experience. Nestled in the heart of the city, our establishment has been serving guests
+                with dedication and pride, ensuring that every visit is a delightful journey for the senses. Our story
+                began with a vision to create a place where people from all walks of life could come together to enjoy
+                exquisite cuisine in a warm and inviting atmosphere.
+                <br><br>
+                At the core of our philosophy is a commitment to using the freshest, locally sourced ingredients. We
+                believe that great food starts with great ingredients, which is why we partner with local farmers and
+                suppliers who share our dedication to quality and sustainability. Our menu is a celebration of seasonal
+                produce, expertly crafted into dishes that showcase the flavors of the region while paying homage to
+                traditional recipes from around the world.
+                <br><br>
+                Our team of talented chefs brings a wealth of experience and creativity to the kitchen, crafting each
+                dish with meticulous attention to detail. From the delicate balance of spices in our signature dishes to
+                the artful presentation that graces each plate, every element is thoughtfully considered to provide our
+                guests with an exceptional dining experience. Whether you're indulging in a multi-course meal or
+                enjoying a casual bite, our menu offers something for everyone.
+                <br><br>
+                The dining experience at our restaurant is not just about the food; it's about the ambiance and the
+                service that accompanies it. Our carefully designed interior reflects a harmonious blend of elegance and
+                comfort, creating an environment where guests can relax and savor their meals. Our attentive staff is
+                dedicated to providing impeccable service, ensuring that every visit is personalized and memorable.
+                <br><br>
+                Our restaurant is more than just a place to eat; it's a gathering space for the community, where
+                friendships are forged and memories are made. We host a variety of events throughout the year, from
+                meats
+                tastings and cooking classes to themed dinners and live music nights. Our private dining areas are
+                perfect for celebrating special occasions, whether it's a birthday, anniversary, or corporate event.
+                <br><br>
+                We are dedicated to making a positive impact on our community and the environment. Through various
+                initiatives, we strive to reduce our carbon footprint, minimize waste, and give back to the community
+                that supports us. Our commitment to sustainability extends beyond our kitchen to every aspect of our
+                operations.
+                <br><br>
+                Thank you for choosing our restaurant. We look forward to welcoming you and sharing our passion for food
+                and hospitality. Whether you're a first-time visitor or a loyal patron, we promise an extraordinary
+                culinary experience that will leave you eagerly anticipating your next visit.
+                <br><br>
+                Our doors are always open, and we invite you to join us on this gastronomic adventure. Bon appétit!
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div id="flexParent">
+            <!-- left -->
+            <div id="leftWords">
+                <h1>food field</h1>
+
+                <p>Our wondrefull resturant <br /></p>
+            </div>
+
+            <!-- center -->
+            <div id="centerWords">
+                Weekly offer <br />
+                pre - order options <br />
+                Book a table
+            </div>
+            <!-- third -->
+            <div id="thirdWords">
+                Yosry ragheb street <br />
+                Assuit city <br />
+                &copy; 2024 all right reserved
+            </div>
+            <!-- last -->
+            <div id="contactWords">
+                Get in touch <br />
+                <span>
+                    <img class="phone" src="./footer imgs/Phone.png" alt="" />
+                    <a href="tel"> 010-1010-1010</a></span><br />
+
+                <a href="#">
+                    <img src="./footer imgs/Facebook Circled.png" alt="" /></a>
+                <a href="#">
+                    <img src="./footer imgs/Twitter Circled.png" alt="" /></a>
+                <a href="#">
+                    <img src="./footer imgs/Instagram Circle.png" alt="" /></a>
+                <a href="#">
+                    <img src="./footer imgs/LinkedIn Circled.png" alt="" /></a>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
