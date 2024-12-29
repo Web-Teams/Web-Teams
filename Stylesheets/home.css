@@ -42,7 +42,7 @@ nav {
 }
 
 main {
-  background-image: url("../home imgs/Burger_With_Neon.jpg");
+  background-image: url("../Home imgs/Burger_With_Neon.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 134vh;
@@ -100,7 +100,7 @@ header .logoImage {
   width: 110px;
   position: absolute;
   left: 10px;
-  top: -63px;
+  top: -36px;
 
 }
 
